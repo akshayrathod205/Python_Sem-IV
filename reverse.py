@@ -2,7 +2,7 @@
 def reverse1(str):
     return str[::-1]
 
-# Reverse a string using extended slice
+# Reverse a string using loop
 def reverse2(str):
     reverse_str = ""
     for i in str:
